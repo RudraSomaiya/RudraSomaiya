@@ -5,7 +5,7 @@
   <img src="assets/header-light.svg" alt="A terminal running neofetch for rudra@github. Name: Rudra Somaiya. Role: AI Software Engineer Intern at AiGENThix. Studying: B.Tech CSE at Vijaybhoomi University. Focus: LLMs and RAG, computer vision, MLOps. Stack: Python, PyTorch, FastAPI, Docker, AWS. Favourites: shinobi-battle and sketch-to-photo. Off-hours: drones and RC aircraft." width="880">
 </picture>
 
-[![LinkedIn][badge-linkedin]][link-linkedin] [![GitHub][badge-github]][link-github]
+[![Portfolio][badge-portfolio]][link-portfolio] [![LinkedIn][badge-linkedin]][link-linkedin] [![GitHub][badge-github]][link-github]
 
 </div>
 
@@ -125,7 +125,9 @@ Also Hugging Face Transformers, LangChain, LangSmith, Ollama, ChromaDB, MLflow, 
 
 <sub>Icons from <a href="https://github.com/tandpfun/skill-icons">skill-icons</a> (MIT). The snake is redrawn every day from my contribution graph by <a href="https://github.com/Platane/snk">Platane/snk</a>.</sub>
 
+[badge-portfolio]: https://img.shields.io/badge/Portfolio-rudra--somaiya.vercel.app-F9DB38?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTEyIDYuMkM5LjkgNC44IDcgNC4zIDIuNSA0LjN2MTQuNmM0LjUgMCA3LjQuNSA5LjUgMS45IDIuMS0xLjQgNS0xLjkgOS41LTEuOVY0LjNjLTQuNSAwLTcuNC41LTkuNSAxLjl6bS0xLjEgMTEuN2MtMS45LS44LTQuMi0xLjItNi42LTEuM1Y2LjVjMi43LjEgNC45LjYgNi42IDEuNnY5Ljh6bTguOC0xLjNjLTIuNC4xLTQuNy41LTYuNiAxLjNWOC4xYzEuNy0xIDMuOS0xLjUgNi42LTEuNnYxMC4xeiIvPjwvc3ZnPg==
 [badge-linkedin]: https://img.shields.io/badge/LinkedIn-Rudra_Somaiya-0A66C2?style=for-the-badge&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTIwLjQ1IDIwLjQ1aC0zLjU2di01LjU3YzAtMS4zMy0uMDItMy4wNC0xLjg1LTMuMDQtMS44NSAwLTIuMTQgMS40NS0yLjE0IDIuOTR2NS42N0g5LjM1VjloMy40MXYxLjU2aC4wNWMuNDgtLjkgMS42NC0xLjg1IDMuMzctMS44NSAzLjYgMCA0LjI3IDIuMzcgNC4yNyA1LjQ2djYuMjh6TTUuMzQgNy40M2EyLjA2IDIuMDYgMCAxIDEgMC00LjEyIDIuMDYgMi4wNiAwIDAgMSAwIDQuMTJ6TTcuMTIgMjAuNDVIMy41NlY5aDMuNTZ2MTEuNDV6TTIyLjIyIDBIMS43N0MuNzkgMCAwIC43NyAwIDEuNzN2MjAuNTRDMCAyMy4yMy43OSAyNCAxLjc3IDI0aDIwLjQ1Yy45OCAwIDEuNzgtLjc3IDEuNzgtMS43M1YxLjczQzI0IC43NyAyMy4yIDAgMjIuMjIgMHoiLz48L3N2Zz4=
 [badge-github]: https://img.shields.io/badge/GitHub-RudraSomaiya-181717?style=for-the-badge&logo=github&logoColor=white
+[link-portfolio]: https://rudra-somaiya.vercel.app
 [link-linkedin]: https://www.linkedin.com/in/rudra-somaiya/
 [link-github]: https://github.com/RudraSomaiya
