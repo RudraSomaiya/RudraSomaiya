@@ -2,7 +2,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/header-dark.svg">
-  <img src="assets/header-light.svg" alt="A terminal running neofetch for rudra@github. Name: Rudra Somaiya. Role: AI Software Engineer Intern at AiGENThix. Studying: B.Tech CSE at Vijaybhoomi University. Focus: LLMs and RAG, computer vision, MLOps. Stack: Python, PyTorch, FastAPI, Docker, AWS. Favourites: shinobi-battle and sketch-to-photo. Off-hours: drones and RC aircraft." width="880">
+  <img src="assets/header-light.svg" alt="A terminal running neofetch for rudra@github. Name: Rudra Somaiya. Role: AI Software Engineer Intern at AiGENThix. Studying: B.Tech CSE at Vijaybhoomi University. Focus: LLM fine-tuning, RAG, computer vision, MLOps. Stack: Python, PyTorch, FastAPI, Docker, AWS. Favourites: Kaun-MurderMystery and shinobi-battle. Off-hours: drones and RC aircraft." width="880">
 </picture>
 
 [![Portfolio][badge-portfolio]][link-portfolio] [![LinkedIn][badge-linkedin]][link-linkedin] [![GitHub][badge-github]][link-github]
@@ -20,11 +20,27 @@ Away from the keyboard I build drones and RC aircraft. In 2025 I captained the u
 <table>
   <tr>
     <td width="50%" valign="top">
+      <a href="https://github.com/RudraSomaiya/Kaun-MurderMystery"><img src="assets/projects/kaun-murder-mystery.webp" alt="A suspect answering the detective's questions in the Kaun? interrogation screen"></a>
+      <h3><a href="https://github.com/RudraSomaiya/Kaun-MurderMystery">Kaun? Murder Mystery</a></h3>
+      A browser detective game where all six suspects are a Qwen3.5-0.8B I fine-tuned with LoRA SFT and GRPO, running on the player's own GPU through WebGPU. On held-out cases the killer kept their cover 100% of the time, against 42.5% for the base model.<br><a href="https://rudrasomaiya.github.io/Kaun-MurderMystery/">Play it live</a> · <a href="https://github.com/RudraSomaiya/Kaun-MurderMystery">Code</a>
+      <br><br>
+      <sub>Unsloth · GRPO · WebLLM · React · TypeScript</sub>
+    </td>
+    <td width="50%" valign="top">
       <a href="https://github.com/RudraSomaiya/shinobi-battle"><img src="assets/projects/shinobi-battle.webp" alt="Hand-landmark skeletons for the jutsu hand signs the game recognises"></a>
       <h3><a href="https://github.com/RudraSomaiya/shinobi-battle">Shinobi Battle</a></h3>
       A two-player online battle game where you cast jutsu by making real hand signs at your webcam. A CNN I trained from scratch on 8,735 hand-landmark images reads the signs live, at about 99% validation accuracy.
       <br><br>
       <sub>PyTorch · MediaPipe · WebSockets · React · WebRTC</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/RudraSomaiya/DragShift"><img src="assets/projects/dragshift.webp" alt="Hand-drawn sketch of the convert, tools and actions wheels opened with Shift, Ctrl and Alt"></a>
+      <h3><a href="https://github.com/RudraSomaiya/DragShift">DragShift</a></h3>
+      Drag a file, tap Shift, Ctrl or Alt, and drop it on a glass wheel to convert, compress or act on it in place. Built with a teammate in a 7-day Scrum sprint of 46 Jira tickets; I owned the Win32 hooks, gesture engine and converters. Covered by over 700 Pytest tests.
+      <br><br>
+      <sub>Python · PySide6 · Win32 · ffmpeg · GitHub Actions</sub>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/RudraSomaiya/sketch-to-photo-retrieval"><img src="assets/projects/sketch-to-photo-retrieval.webp" alt="A hand-drawn crab sketch and the photos ResNet-50 and CLIP return for it"></a>
@@ -36,34 +52,34 @@ Away from the keyboard I build drones and RC aircraft. In 2025 I captained the u
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/RudraSomaiya/text-vs-multimodal-rag"><img src="assets/projects/text-vs-multimodal-rag.webp" alt="A LangSmith trace of the local LLM judge marking a hallucinated answer incorrect"></a>
-      <h3><a href="https://github.com/RudraSomaiya/text-vs-multimodal-rag">Text RAG vs Multimodal RAG</a></h3>
-      Two fully local pipelines over the same 30-page handbook, one retrieving text chunks and one retrieving page images, graded in LangSmith by a local LLM judge. Text RAG with Llama 3.2 got 5 of 10 questions right; the page-image pipeline got 3.
-      <br><br>
-      <sub>LangChain · Ollama · ChromaDB · CLIP · LangSmith</sub>
-    </td>
-    <td width="50%" valign="top">
       <a href="https://github.com/RudraSomaiya/MLops-EndTerm"><img src="assets/projects/mlops-loan-approval.webp" alt="MLflow comparing accuracy, F1, precision and recall across loan approval training runs"></a>
       <h3><a href="https://github.com/RudraSomaiya/MLops-EndTerm">Loan Approval MLOps</a></h3>
       Predicts loan approval (F1 0.985) and gives every rejected applicant up to three DiCE counterfactuals showing what would change the decision. DVC, MLflow, FastAPI, Prometheus and Grafana, deployed on Kubernetes.
       <br><br>
       <sub>scikit-learn · DVC · MLflow · FastAPI · Kubernetes</sub>
     </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/RudraSomaiya/text-vs-multimodal-rag"><img src="assets/projects/text-vs-multimodal-rag.webp" alt="A LangSmith trace of the local LLM judge marking a hallucinated answer incorrect"></a>
+      <h3><a href="https://github.com/RudraSomaiya/text-vs-multimodal-rag">Text RAG vs Multimodal RAG</a></h3>
+      Two fully local pipelines over the same 30-page handbook, one retrieving text chunks and one retrieving page images, graded in LangSmith by a local LLM judge. Text RAG with Llama 3.2 got 5 of 10 questions right; the page-image pipeline got 3.
+      <br><br>
+      <sub>LangChain · Ollama · ChromaDB · CLIP · LangSmith</sub>
+    </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/RudraSomaiya/bert-document-review"><img src="assets/projects/bert-document-review.webp" alt="The document review app listing people, places and dates it found in a contract"></a>
-      <h3><a href="https://github.com/RudraSomaiya/bert-document-review">BERT Document Review</a></h3>
-      A contract review assistant built only from BERT encoders, so every answer is a label or a span taken from the document itself: entity scan and redaction, extractive Q&amp;A, vague-wording flags and clause review.
+      <a href="https://github.com/RudraSomaiya/skilldeck"><img src="assets/projects/skilldeck.webp" alt="Skilldeck swipe cards, filters and a shared saved list"></a>
+      <h3><a href="https://github.com/RudraSomaiya/skilldeck">Skilldeck</a></h3>
+      Swipe through Claude skills pulled live from GitHub, save the good ones and share the list with friends through a link, with no account. Shared lists run on Supabase behind row-level security.<br><a href="https://rudrasomaiya.github.io/skilldeck/">Try it live</a> · <a href="https://github.com/RudraSomaiya/skilldeck">Code</a>
       <br><br>
-      <sub>Transformers · PyTorch · Streamlit</sub>
+      <sub>React · TypeScript · Supabase · GitHub Pages</sub>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/RudraSomaiya/kon-dogla"><img src="assets/projects/kon-dogla.webp" alt="Kon Dogla screens: home, lobby, a secret word card and the game over screen"></a>
-      <h3><a href="https://github.com/RudraSomaiya/kon-dogla">Kon Dogla?</a></h3>
-      A real-time party game for a room full of phones. Everyone gets the secret word except the Dogla, who only gets a hint and has to bluff. A Socket.IO server keeps every room's game state.
+      <a href="https://github.com/RudraSomaiya/DripDeck"><img src="assets/projects/dripdeck.webp" alt="Dripdeck's mood card for summer with a T-shirt, sneakers and a cap"></a>
+      <h3><a href="https://github.com/RudraSomaiya/DripDeck">Dripdeck</a></h3>
+      An offline wardrobe app for Windows: photograph your clothes, tag them, swipe through moods and shuffle a whole outfit. Ships as a 3.4 MB Tauri executable that keeps everything in a local folder.<br><a href="https://github.com/RudraSomaiya/DripDeck/releases/latest">Download</a> · <a href="https://github.com/RudraSomaiya/DripDeck">Code</a>
       <br><br>
-      <sub>Node.js · Express · Socket.IO</sub>
+      <sub>Tauri · Rust · React · TypeScript</sub>
     </td>
   </tr>
 </table>
@@ -72,14 +88,16 @@ Away from the keyboard I build drones and RC aircraft. In 2025 I captained the u
 
 | Project | What it is |
 |---|---|
+| [BERT Document Review](https://github.com/RudraSomaiya/bert-document-review) | A contract review assistant built only from BERT encoders, so every answer is a label or span from the document: entity scan and redaction, extractive Q&A and clause review |
 | [Explainable AI Audits](https://github.com/RudraSomaiya/explainable-ai-audits) | Audits of a small language model, a credit scoring model and a drug toxicity classifier with Captum, SHAP, LIME and DiCE |
+| [Kon Dogla?](https://github.com/RudraSomaiya/kon-dogla) | A real-time party game for a room full of phones where everyone gets the secret word except the Dogla, who has to bluff. A Socket.IO server keeps every room's game state |
+| [LocalCast Audio](https://github.com/RudraSomaiya/LocalCast-Audio) | Streams a Windows PC's audio to every phone on the same Wi-Fi through the browser, with under 50 ms of base latency. I built it for movie nights. |
 | [Legal Contract NLP](https://github.com/RudraSomaiya/legal-contract-nlp) | Sorts 21,000 contract clauses into 42 types (Linear SVM, 92.8% accuracy) and flags unusual ones with an Isolation Forest |
 | [Customer Churn MLOps](https://github.com/RudraSomaiya/Church-Prediction-MLops) | A reproducible churn pipeline with DVC, MLflow and GitHub Actions, and what happened when the test data drifted away from the training data |
 | [Jenkins CI/CD on AWS](https://github.com/RudraSomaiya/DevOps2-EndTerm) | Jenkins builds, tests and redeploys a Flask dashboard on EC2 every time code is pushed |
-| [Urban Transport ETL](https://github.com/RudraSomaiya/urban-transport-etl) | Merges bus ridership with traffic sensor data, validates both and loads an hourly route table into PostgreSQL |
 | [AutoML Model Recommender](https://github.com/RudraSomaiya/automl-model-recommender) | Upload a dataset and get a recommended, tuned model back, matched against 5,000 synthetic dataset profiles |
+| [Urban Transport ETL](https://github.com/RudraSomaiya/urban-transport-etl) | Merges bus ridership with traffic sensor data, validates both and loads an hourly route table into PostgreSQL |
 | [Volleyball Setter RL](https://github.com/RudraSomaiya/volleyball-setter-rl) | A setter's choice of set as a Markov decision process, solved with dynamic programming, Monte Carlo, SARSA and Q-learning |
-| [LocalCast Audio](https://github.com/RudraSomaiya/LocalCast-Audio) | Streams a Windows PC's audio to every phone on the same Wi-Fi through the browser, with under 50 ms of base latency. I built it for movie nights. |
 | [MakeBookFromScans](https://github.com/RudraSomaiya/MakeBookFromScans) | Turns scanned book chapters into clean text for an LLM, with PaddleOCR running locally |
 
 ## Experience and education
@@ -114,7 +132,7 @@ CGPA 9.24 out of 10.
   <img src="assets/stack-light.svg" alt="Python, PyTorch, TensorFlow, scikit-learn, OpenCV, FastAPI, Flask, PostgreSQL, MongoDB, Redis, Docker, Kubernetes, AWS, GitHub Actions, Jenkins, Grafana, Prometheus, Linux, Bash, Git, TypeScript, Node.js, React, Next.js, Tailwind CSS, Arduino" width="723">
 </picture>
 
-Also Hugging Face Transformers, LangChain, LangSmith, Ollama, ChromaDB, MLflow, DVC, SHAP, MediaPipe, YOLOv8 and Streamlit.
+Also Hugging Face Transformers, LangChain, LangSmith, Ollama, ChromaDB, MLflow, DVC, SHAP, MediaPipe, YOLOv8, Streamlit, Unsloth, WebLLM, Tauri, PySide6 and Supabase.
 
 <br>
 
